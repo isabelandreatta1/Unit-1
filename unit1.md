@@ -6,23 +6,25 @@
 There is a hardware store in Karuizawa. This store is quite old, like 1000 year old. The owner, Mr Sakamoto, wants to upgrade his accounting software, which at the moment, is kept on paper. He would like to have a software application that replaces the accounting book. Mr Sakamoto got a new Mac PC from his nephew and would  like to use it. 
 
 ### Justification of the solution 
-
 ```.py 
+
 from datetime import datetime
 
 date = datetime.today() 
 print("Welcome to Sakamoto Store {}".format(date))
 print ("Hello user. Please enter your name.")
 name= input()
-print("your name is " + name)
+print("Your name is " + name)
 #Can you create a list of Menu Items 
 print("Menu of items") 
-print("=" * 20)
-print("1.{}{}{}".format("Ram","...", "3$")) 
-print("2.{}{}{}".format("CPU","...", "5$"))
-print("3.{}{}".format("Motherboard","5$")) 
-print("4.{}{}".format("GPU","8$"))
-print("Please input option purchased:")
+print("=" * 50)
+items = ["1. RAM", "2. CPU", "3. Motherboard", "4. GPU"]
+price = ["3", "5", "5", "8"]
+
+for x in range(len(items)):
+  print("\n" + items[x] + "..." *15 + price[x] + " Bitcoin")
+
+print("\n Please input option purchased:")
 def response():
   option = int(input())
   if option == 1:
@@ -38,6 +40,7 @@ def response():
     return response()
     
 response()
+  
   
   
 
