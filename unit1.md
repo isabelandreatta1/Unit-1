@@ -9,8 +9,12 @@ There is a hardware store in Karuizawa. This store is quite old, like 1000 year 
 ```.py 
 
 from datetime import datetime
+import pytz 
 
-date = datetime.today() 
+IST = pytz.timezone('Asia/Tokyo')
+datetime_ist = datetime.now(IST)
+date = datetime_ist.strftime("Date: %Y.%m.%d. Time: %H:%M")
+
 print("Welcome to Sakamoto Store {}".format(date))
 print ("Hello user. Please enter your name.")
 name= input()
