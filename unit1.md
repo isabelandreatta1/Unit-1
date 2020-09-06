@@ -20,13 +20,14 @@ print ("Hello user. Please enter your name.")
 name= input()
 print("Your name is " + name)
 #Can you create a list of Menu Items 
-print("Menu of items") 
+print("\n Menu of items") 
 print("=" * 50)
-items = ["1. RAM", "2. CPU", "3. Motherboard", "4. GPU"]
-price = ["3", "5", "5", "8"]
+items_and_price = [("RAM", "3"), ("CPU", "5"),("Motherboard", "5"),("Motherboard","5"),("GPU", "8")]
 
-for x in range(len(items)):
-  print("\n" + items[x] + "..." *15 + price[x] + " Bitcoin")
+item_no = 1;  
+for item in items_and_price: 
+  print("\n" + item[0] + "..." *10 + item[1], " Bitcoin")
+  item_no = item_no + 1
 
 print("\n Please input option purchased:")
 def response():
@@ -42,11 +43,6 @@ def response():
   else:
     print("Please input a listed number. Try Again")
     return response()
-    
-response()
-  
-  
-  
 
 ```
 
