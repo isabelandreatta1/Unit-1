@@ -30,19 +30,18 @@ for item in items_and_price:
   item_no = item_no + 1
 
 print("\n Please input option purchased:")
-def response():
-  option = int(input())
-  if option == 1:
-    print("You have chosen RAM")
-  elif option == 2: 
-    print("You have chosen CPU")
-  elif option == 3:
-    print("You hav chosen Motherboard")
-  elif option == 4:
-    print("You have chosen GPU")
-  else:
-    print("Please input a listed number. Try Again")
-    return response()
+
+count = 0 
+while count < 3:
+    count = count + 1
+    option = int(input())
+    if option <= 5:
+        print("You chose {}".format(option))
+        break
+    elif count==3:
+        print("You have 0 tries left")
+    else:
+        print("You have {} tries left".format(3 - count))
 
 ```
 
