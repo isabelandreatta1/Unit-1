@@ -1,4 +1,4 @@
-#Task 2: Computer Organisation 
+# Task 2: Computer Organisation 
 
 ### Count to N 
 Given an int N, print all numbers from 1 to N 
@@ -22,3 +22,27 @@ if b >= a:
 else:
     print("Number did not fit conditions")
 ``` 
+### Slices 
+```.py
+S = input()
+#print the third chatacter 
+print( S[2])
+#print the second to last character 
+print(S[-2])
+#print the first five characters 
+print(S[0] + S[1] + S[2] + S[3] + S[4]) 
+#print all but the two last characters in this string 
+print(S[0:-2]) 
+#print all characters with even indexes
+print(S[::2]) 
+#print all characters with odd indexes 
+print(S[1::2]) 
+#print all characters in reverseee 
+print(S[::-1]) 
+#print every second character reverse order 
+print(S[-1::-2]) 
+#print length of string 
+print("{}".format(len(S)))
+```
+
+###  10 numbers ordered from smallest to largest 
