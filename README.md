@@ -54,3 +54,4 @@ print("\n")
 newNumberList = sorted(numberList.split()) 
 print("Your list ordered from smallest to largest: \n {}".format( newNumberList)) 
 ```
+**certain problems because of "sorted" ** 
