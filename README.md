@@ -44,5 +44,13 @@ print(S[-1::-2])
 #print length of string 
 print("{}".format(len(S)))
 ```
+(helpeful link about slicing string: https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3 ) 
 
 ###  10 numbers ordered from smallest to largest 
+
+```.py
+numberList = (input("Please input 10 numbers seperated by a space \n"))
+print("\n")
+newNumberList = sorted(numberList.split()) 
+print("Your list ordered from smallest to largest: \n {}".format( newNumberList)) 
+```
