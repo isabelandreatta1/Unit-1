@@ -44,4 +44,37 @@ while count < 3:
         print("You have {} tries left".format(3 - count))
 
 ```
+### Dice simulation 
+```.py
+# Simulation for a Fair Dice
+# 1- Generate a random number 0 to 59
+# 2 - Check the number; if between [0 9] count as 0
+# if between [10 19] count as 1
+
+import random
+
+count = [0, 0, 0, 0, 0, 0]
+num_trial = 2000
+
+for trial in range(num_trial):
+    n = random.randint(1, 60)
+    if n < 9:
+        count[0] += 1
+    elif 9 < n < 19:
+        count[1] += 1
+    elif 19 < n < 29:
+        count[2] += 1
+    elif 29 < n < 39:
+        count[3] += 1
+    elif 39 < n < 49:
+        count[4] += 1
+    elif 49 < n < 59:
+        count[5] += 1
+
+for index, c in enumerate(count):
+    error = c - num_trial / 6
+    print("Number of {}s: {}, expected {}, error {}".format(index + 1, c, num_trial / 6, error))
+MSE = (1 / num_trial) * (error) ** 2
+print(MSE)
+```
 
