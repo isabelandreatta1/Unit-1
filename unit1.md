@@ -104,35 +104,44 @@ print("Your list ordered from smallest to largest: \n {}".format( newNumberList)
 **certain problems because of "sorted" ** 
 ## Dice simulation 
 ```.py
-# Simulation for a Fair Dice
-# 1- Generate a random number 0 to 59
-# 2 - Check the number; if between [0 9] count as 0
+#Simulation for a Fair Dice
+#1- Generate a random number 0 to 59
+#2 - Check the number; if between [0 9] count as 0
 # if between [10 19] count as 1
+import random 
+import matplotlib.pyplot as plt
+count = [0,0,0,0,0,0]
+num_trial = int(input("Please write the number of trials: "))
 
-import random
+for trial in range(num_trial): 
+  n = random.randint(1,60)
+  if n < 9: 
+    count[0] += 1
+  elif 9 < n < 19: 
+    count[1] += 1
+  elif 19 < n < 29: 
+    count[2] += 1
+  elif 29 < n < 39: 
+    count[3] += 1
+  elif 39 < n < 49 :
+    count[4] += 1 
+  elif 49 < n < 59: 
+    count[5] += 1
 
-count = [0, 0, 0, 0, 0, 0]
-num_trial = 2000
+for index, c in enumerate(count): 
+  error =  c - num_trial/6
+  print("Number of {}s: {}, expected {}, error {}".format(index + 1, c, num_trial/6, error))
+  
+MSE1 = (1/num_trial) * (error)**2
+print(MSE1)
 
-for trial in range(num_trial):
-    n = random.randint(1, 60)
-    if n < 9:
-        count[0] += 1
-    elif 9 < n < 19:
-        count[1] += 1
-    elif 19 < n < 29:
-        count[2] += 1
-    elif 29 < n < 39:
-        count[3] += 1
-    elif 39 < n < 49:
-        count[4] += 1
-    elif 49 < n < 59:
-        count[5] += 1
+x = [10000,20000,30000,40000,50000,60000,70000,80000,90000,100000]
+y = [3.37, 5.42, 8.84, 1.79, 4.67,  15.33, 20.77, 27.76, 25.77, 40.00]
 
-for index, c in enumerate(count):
-    error = c - num_trial / 6
-    print("Number of {}s: {}, expected {}, error {}".format(index + 1, c, num_trial / 6, error))
-MSE = (1 / num_trial) * (error) ** 2
-print(MSE)
+plt.plot(x,y) 
+plt.xlabel("Number of trials")
+plt.ylabel("Average Squared Error")
+plt.show()
+
 ```
 
