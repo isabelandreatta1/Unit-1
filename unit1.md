@@ -8,6 +8,7 @@ There is a hardware store in Karuizawa. This store is quite old, like 1000 year 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Flow%20Diagram.png)
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/SakamotoDiagram.jpg) 
 
+
 ### Justification of the solution 
 ```.py 
 
