@@ -13,7 +13,7 @@ T.E.L.O.S study:
 
 [1] Eastwood, Brian. “The 10 Most Popular Programming Languages to Learn in 2020.” Northeastern University Graduate Programs, 27 Aug. 2020, www.northeastern.edu/graduate/blog/most-popular-programming-languages/. 
 
-![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/SakamotoDiagram.jpg) 
+![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/SakamotoDiagram.png) 
 
 ## Criteria C: Development 
 1. Provides clear feedback to the user 
