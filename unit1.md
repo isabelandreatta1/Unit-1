@@ -21,7 +21,7 @@ T.E.L.O.S study:
 1. The application should allow to calculate the total and billing 
 1. Secure application: It allows user login/authentification 
 
-![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Flow%20Diagram.png)
+![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Menu%20Flow%20Diagram.png)
 
 ```.py 
 
