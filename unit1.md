@@ -59,27 +59,30 @@ while count < 3:
         print("You have 0 tries left")
     else:
         print("You have {} tries left".format(3 - count))
-while True: 
+
+while True:
   total = int(input("Please enter the total amoiunt (BTC) "))
-  if total < 0: 
+  if total < 0:
     print("The total cannot be negative. Try again")
-  else: 
+  else:
       break
 
-#Step 2: withou using pattern recognition 
-for n in range(4): 
-  if 250*n < total <= 250*n + 250: 
-    tax = 0.25 - (n*1)
-  if total > 1000: 
-    tax = 0.05 
-#step 3: Show the total in a nice frame 
-finalprice = total* (tax + 1 )  
+#Step 2: withou using pattern recognition
+for n in range(4):
+  if 250*n < total <= 250*n + 250:
+    tax = 0.25 - (n* 0.05)
+  if total > 1000:
+    tax = 0.05
+#step 3: Show the total in a nice frame
+finalprice = round(total* (tax + 1 ))
 
-for n in range(50):
-  print("X",end = "")
-print("\nX", " " * 15, "{:3f} BTC".format(finalprice) , " " * 14, "X")
-print("X" * 50)
-
+for n in range(5):
+    if n == 0 or n == 4:
+        print("X" * 50)
+    elif  n == 1 or n == 3:
+        print("X", " " * 45, "X")
+    elif n == 2:
+        print("X", " " * 15, "{} BTC".format(finalprice), " " * 12, "X")
 
 ```
 
