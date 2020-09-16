@@ -13,6 +13,8 @@ T.E.L.O.S study:
 
 [1] Eastwood, Brian. “The 10 Most Popular Programming Languages to Learn in 2020.” Northeastern University Graduate Programs, 27 Aug. 2020, www.northeastern.edu/graduate/blog/most-popular-programming-languages/. 
 
+## Criteria B: Design 
+
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/SakamotoDiagram.png) 
 
 ## Criteria C: Development 
@@ -186,3 +188,7 @@ plt.show()
 
 ```
 
+## Architecture of the computer 
+
+![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Computer%20Architecture.jpg)
+*Fig. 1 Computer Architecture by Cathy, Timur, Isabel and Kien* 
