@@ -191,4 +191,5 @@ plt.show()
 ## Architecture of the computer 
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Computer%20Architecture.jpg)
+
 *Fig. 1 Computer Architecture by Cathy, Timur, Isabel and Kien* 
