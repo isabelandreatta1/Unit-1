@@ -17,6 +17,8 @@ T.E.L.O.S study:
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/SakamotoDiagram.png) 
 
+*Fig. 1 System Diagram* 
+
 ## Criteria C: Development 
 1. Provides clear feedback to the user 
 1. **There are no bugs in the application** 
@@ -25,7 +27,8 @@ T.E.L.O.S study:
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Menu%20Flow%20Diagram.png)
 
-*System Diagram* 
+*Fig. 2 Menu Flow Diagram* 
+
 
 ```.py 
 
@@ -194,4 +197,4 @@ plt.show()
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Computer%20Architecture.jpg)
 
-*Fig. 1 Computer Architecture by Cathy, Timur, Isabel and Kien* 
+*Fig. 3 Computer Architecture by Cathy, Timur, Isabel and Kien* 
