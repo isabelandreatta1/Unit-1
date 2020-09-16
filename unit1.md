@@ -25,6 +25,8 @@ T.E.L.O.S study:
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Menu%20Flow%20Diagram.png)
 
+*System Diagram* 
+
 ```.py 
 
 from datetime import datetime
