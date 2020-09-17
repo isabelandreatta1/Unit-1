@@ -198,3 +198,5 @@ plt.show()
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Computer%20Architecture.jpg)
 
 *Fig. 3 Computer Architecture by Cathy, Timur, Isabel and Kien* 
+
+This is a diagram of a computer designed by our team. Though it includes many computer conponments, there is little coherance because some parts are more uneccessarily complex while others are very simple. For the input/output interfaces of the computer, the computer contains USB port, a HDMI port (for the integrated video), a soundcard, and mouse/keyboard port. The videocard inside the motherboard, 
