@@ -30,7 +30,7 @@ T.E.L.O.S study:
 |---------|--------------------------------------------------------------------------------------------------------|----------------------------------|----------------|------------------------|-----------|
 | 1       | Planning: Discuss the context of the situation (Ideally, this is the first interview with your client) | Write the context of the problem | 15m            | Sept 11                | A         |
 | 2       | Development: Coded a text-based menu system for some parts in the hardware store                       | A working program                | 80m            | Sept 18th              | C         |
-| 3       | Planning: Created a flow-diagram for the menu system                                                   | An easy-to-follow flow diagram   | 20m            | Sept                   | A         |
+| 3       | Planning: Created a flow-diagram for the menu system                                                   | An easy-to-follow flow diagram   | 20m            | Sept 15th                 | A         |
 
 
 ## Criteria C: Development 
