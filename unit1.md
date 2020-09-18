@@ -13,12 +13,13 @@ T.E.L.O.S study:
 
 [1] Eastwood, Brian. “The 10 Most Popular Programming Languages to Learn in 2020.” Northeastern University Graduate Programs, 27 Aug. 2020, www.northeastern.edu/graduate/blog/most-popular-programming-languages/. 
 
-## Criteria B: Design
-
+## Criteria for Success
 1. Provides clear feedback to the user 
 1. **There are no bugs in the application** 
 1. The application should allow to calculate the total and billing 
 1. Secure application: It allows user login/authentification 
+
+## Criteria B: Design
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/SakamotoDiagram.png) 
 
