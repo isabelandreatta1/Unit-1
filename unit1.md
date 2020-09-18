@@ -13,17 +13,27 @@ T.E.L.O.S study:
 
 [1] Eastwood, Brian. “The 10 Most Popular Programming Languages to Learn in 2020.” Northeastern University Graduate Programs, 27 Aug. 2020, www.northeastern.edu/graduate/blog/most-popular-programming-languages/. 
 
-## Criteria B: Design 
+## Criteria B: Design
+
+1. Provides clear feedback to the user 
+1. **There are no bugs in the application** 
+1. The application should allow to calculate the total and billing 
+1. Secure application: It allows user login/authentification 
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/SakamotoDiagram.png) 
 
 *Fig. 1 System Diagram* 
 
+## Record of Tasks 
+
+| Task No | Planned Action                                                                                         | Planned Outcome                  | Time Estimated | Target Completion Date | Criterion |
+|---------|--------------------------------------------------------------------------------------------------------|----------------------------------|----------------|------------------------|-----------|
+| 1       | Planning: Discuss the context of the situation (Ideally, this is the first interview with your client) | Write the context of the problem | 15m            | Sept 11                | A         |
+| 2       | Development: Coded a text-based menu system for some parts in the hardware store                       | A working program                | 80m            | Sept 18th              | C         |
+| 3       | Planning: Created a flow-diagram for the menu system                                                   | An easy-to-follow flow diagram   | 20m            | Sept                   | A         |
+
+
 ## Criteria C: Development 
-1. Provides clear feedback to the user 
-1. **There are no bugs in the application** 
-1. The application should allow to calculate the total and billing 
-1. Secure application: It allows user login/authentification 
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Menu%20Flow%20Diagram.png)
 
