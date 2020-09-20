@@ -40,7 +40,7 @@ c=["red", "white", "yellow", "blue"]*600
 for i in range(0,2400):
      print(c[i], i+1)
 ```
-
+![task1](https://github.com/isabelandreatta1/Unit-1/blob/master/Lockers_Task1.png) 
 ### 2. Using the program above, create another program that allows the user to enter a number and the program outputs the color that should be used in the locker.
 
 ```.py
@@ -54,7 +54,7 @@ if (n-3)%4 ==0:
 if (n-4)%4 ==0:
     print("red")
 ```
-
+![task2](https://github.com/isabelandreatta1/Unit-1/blob/master/Lockers_Task2.png)
 ### 3. [HL] Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. 
 
 ```.py
@@ -65,4 +65,5 @@ for n in range(2401):
     if (n - i)%4 == 0:
         print(n)
 ```
+![task3](https://github.com/isabelandreatta1/Unit-1/blob/master/Lockers_Task3.png)
 
