@@ -15,11 +15,11 @@ The most powerful computer is actually the Summit. Summit is unclassified so it 
 
 
 However the most surprising points about the Sierra Computer (the second most powerful) are: 
-Sierra has become air gapped ( cut off from any other computer network) in order to simulate old warheads 
-Warheads are supposed to be replaced repeatedly, without that, and with time, it is unreliable how they will function 
-Stockpile Stewardship Program 
-Research with Sierra may go against the treaty for nuclear disarmament because it blurs the lines between maintaining old warhead and constructing new ones 
-Military simulations are prioritised over other topics such as health and earthquake 
+- Sierra has become air gapped ( cut off from any other computer network) in order to simulate old warheads 
+- Warheads are supposed to be replaced repeatedly, without that, and with time, it is unreliable how they will function 
+- The Stockpile Stewardship Program 
+- Research with Sierra may go against the treaty for nuclear disarmament because it blurs the lines between maintaining old warhead and constructing new ones 
+- Military simulations are prioritised over other topics such as health and natural disasters 
 
 ### 3. Supercomputers are currently used to investigate solutions to real life problems from cancer research, Ai, economics, or brain simulation. Military uses are also one major force behind the development of these machines. Analyze the benefits and possible drawbacks of developing supercomputers in our modern world? Should we do it?
 
