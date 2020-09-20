@@ -36,9 +36,7 @@ Supercomputers are important tools and should stay as such. The drawbacks, with 
  
 ### 1. Create a program that shows the colors of all the lockers from 1 to 2400
 ```.py
-#task 1: create a program that shows the colours of all lockers from 1 to 2400
 c=["red", "white", "yellow", "blue"]*600
-n = 0
 for i in range(0,2400):
      print(c[i], i+1)
 ```
