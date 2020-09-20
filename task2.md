@@ -43,4 +43,26 @@ for i in range(0,2400):
 
 ### 2. Using the program above, create another program that allows the user to enter a number and the program outputs the color that should be used in the locker.
 
+```.py
+n = int(input("Please enter a number "))
+if (n-1)%4 ==0:
+     print("red")
+if (n-2)%4 ==0:
+    print("white")
+if (n-3)%4 ==0:
+    print("yellow")
+if (n-4)%4 ==0:
+    print("red")
+```
+
 ### 3. [HL] Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. 
+
+```.py
+colour = input("Please enter a colour ")
+c = {"red":1,"white":2,"yellow":3,"blue":4}
+i = c[colour]
+for n in range(2401):
+    if (n - i)%4 == 0:
+        print(n)
+```
+
