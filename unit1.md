@@ -37,6 +37,7 @@ T.E.L.O.S study:
 ## Criteria C: Development 
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Menu%20Flow%20Diagram.png)
+![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Encryption%20Flow%20Diagram%20(1).png)
 
 *Fig. 2 Menu Flow Diagram* 
 
