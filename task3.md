@@ -24,7 +24,7 @@ Throughout all the years, the Windows OSs strongly dominated all other types of 
 
 In more specifics, WinXP was the most popular in 2003, while other operating systems became less popular with time.  In 2009, there was a  huge popularity boost with all other operating systems (especially the Win7,). By 2011, Win7 took over the Winxp . By 2013, the win8 took over. MacOS and Linux both increased but still much further behind. Lastly, in 2015, the Win10 attracted a lot of popularity,  quickly surpassing Win7. By 2019, the Win10 was the most used OS, while Win7, MacOS and the Linux had around the same percentage of usage. 
 
-Question 4: Identify the original creators of the Operating Systems in video #2. Add the citations for your sources.
+## Question 4: Identify the original creators of the Operating Systems in video #2. Add the citations for your sources.
 
 The MacOS was first developed by Steve Jobs in his company, Apple, 1984. 
 
@@ -38,9 +38,9 @@ The Linux was developed by Linus Torvalds, a Finnish engineer, in the 90’s.
 https://www.britannica.com/technology/Linux
 
 ## Question 5: The list below states some of the least known open source operating systems. Research what they are mainly used for, what graphical interface system they use and what are the minimal specifications of the computer needed to run them. 
-1. Red Hat: 
+1. Red Hat: Red hat is an operating system which can do various specialised tasks. It is particularly used as an enterprise computer. Some of its key features include automation, storage, management, etc.. The minimum specifications are: 2GB of RAM and 10GB on disk. Red Hat does not install with a GUI so you need to download that as a seperatet package. 
 
-1. CentoOS:
+1. CentOS: CentOS derives from and is compatible with Red Hat, and is short for Communitg Enterprise Operating System. It has a very long span of maintence and so is used for many refined/stable softwares/features. It is both used as an enterprise OS (like Red Hat) but is free. It is also simple to tuse, so it further attracts home-users. Similarily to Red Hat, it does not come with a GUI but there are many instatllable options such as GNOME, XFCE, and KDE. The minimum specifications are 512MB of System memory and 10GB disk space. 
 
 1. SUSE: 
 
@@ -57,9 +57,14 @@ https://www.britannica.com/technology/Linux
 ## [HL] Task: Pick one of the OS in the list above (or any other you find which is open source), download it, and install it in your computer using a Virtual Machine (Tutorial Here). Prepare 3 Slides with your experience, plus you will show us the operating system running and some interesting software applications included, check the games and office applications. Enjoy!
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/HL%20OS%20Presentation.jpg) 
+
 *slide 1* 
+
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/HL%20OS%20Presentation%20(1).jpg) 
+
 *slide 2* 
+
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/HL%20OS%20Presentation%20(2).jpg) 
+
 *slide 3* 
 
