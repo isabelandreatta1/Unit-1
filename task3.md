@@ -42,9 +42,9 @@ https://www.britannica.com/technology/Linux
 
 1. CentOS: CentOS derives from and is compatible with Red Hat, and is short for Communitg Enterprise Operating System. It has a very long span of maintence and so is used for many refined/stable softwares/features. It is both used as an enterprise OS (like Red Hat) but is free. It is also simple to tuse, so it further attracts home-users. Similarily to Red Hat, it does not come with a GUI but there are many instatllable options such as GNOME, XFCE, and KDE. The minimum specifications are 512MB of System memory and 10GB disk space. 
 
-1. SUSE: 
+1. SUSE: The SUSE has multiple different branches, with the SUSE Linux Enterprise Desktop and the SUSE Linux Enterprise Server. SUSE however is not that great for general-purpose computers, it gives the user a lot of flexibility to control many features. The OS can be used either for enterprise reasons or used for testing new programs/software development (not sure). The GUI of SUSE is GNOME. Tthe mimum specifications are 1GB RAM, 500MB disk space, and certain packages such as: Open GL 2, OpenMotif 2.2, Evince 1.0. 
 
-1. Linux Mint: 
+1. Linux Mint: The Linux Mint is an extremely popular operating system mostly used as a desktop OS and is very easy to use. It uses Cinnamon as its GUI, which itself derived from GNOME 3. The mimium specifications include 512 MB for software system and 5GB disk space. 
 
 1. Fedora: Federa’s main target is for developers and programmers rather than average users. This is because it has a short live cycle (6 month release cycle) and updates often. It is used most often for software development/testing. Fedora does not have a graphical interface as a default, and thus you need to manually install one yourself. Its minimum specifications are: 1GHz Processor, 2GB RAM, and either a CD-DVD drive or a USB stick (bootable media). 
 
@@ -52,7 +52,7 @@ https://www.britannica.com/technology/Linux
 
 1. Manjaro: Manjaro is used for general-purpose usage, and also is great for 
 
-1. Kali: Kali is known for “advanced penetration testing and security audacity.” This means that it is specialised in simulating cyber attacks and checking a computer systems security.. For its GUI system, Kali uses GNOME. The minimum specifications are: 3.6GB hard disk space, 257MB RAM, and a CD-DVD drive or a USB stick. 
+1. Kali: Kali is known for “advanced penetration testing and security audacity.” This means that it is specialised in simulating cyber attacks and checking a computer systems security. For its GUI system, Kali uses GNOME. The minimum specifications are: 3.6GB hard disk space, 257MB RAM, and a CD-DVD drive or a USB stick. 
 
 ## [HL] Task: Pick one of the OS in the list above (or any other you find which is open source), download it, and install it in your computer using a Virtual Machine (Tutorial Here). Prepare 3 Slides with your experience, plus you will show us the operating system running and some interesting software applications included, check the games and office applications. Enjoy!
 
