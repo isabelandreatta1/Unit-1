@@ -103,6 +103,32 @@ for n in range(5):
         print("X", " " * 45, "X")
     elif n == 2:
         print("X", " " * 15, "{} BTC".format(finalprice), " " * 12, "X")
+        
+        
+#Algorithm for encrypting the database
+all_lines_of_db = open('database','r').readlines()
+shift = int(input("Please input shift "))
+#get (split) the file into letters
+for line in all_lines_of_db:
+    encrypt_line = ""
+    decrypt_line = ""
+    len_line = len(line)
+    for l in range(len_line):
+        #print("letter number {} out of {} {} Completion {:.2f}%".format(l+1,len_line, "."*10,((l+1)/len_line)*100))
+        newline = chr(ord(line[l])+ shift)
+        encrypt_line += newline
+        old = chr(ord(encrypt_line[l]) - shift)
+        decrypt_line += old
+    print(decrypt_line)
+
+    with open("encrypt_file", "a") as wfile:
+        wfile.write(encrypt_line+ '\n')
+
+#this doubles the quantity
+for line in all_lines_of_db[1:6]:
+    elements_in_list = (line.strip().split(','))
+    
+
 
 ```
 
