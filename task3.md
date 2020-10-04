@@ -56,5 +56,10 @@ https://www.britannica.com/technology/Linux
 
 ## [HL] Task: Pick one of the OS in the list above (or any other you find which is open source), download it, and install it in your computer using a Virtual Machine (Tutorial Here). Prepare 3 Slides with your experience, plus you will show us the operating system running and some interesting software applications included, check the games and office applications. Enjoy!
 
-
+![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/HL%20OS%20Presentation.jpg) 
+*slide 1* 
+![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/HL%20OS%20Presentation%20(1).jpg) 
+*slide 2* 
+![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/HL%20OS%20Presentation%20(2).jpg) 
+*slide 3* 
 
