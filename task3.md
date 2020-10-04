@@ -50,7 +50,7 @@ https://www.britannica.com/technology/Linux
 
 1. Knoppix: Knoppix is a live operating system (pre-installed on a CD/USB/etc.). Because of such, it is a good OS for downloading something without it going directly to your hard drive. It is also used for copying large files which are not accessible to other operating systems and as a “rescue disk.” Rescue disks are CDs, DVDs, or USBs used for checking for malware/viruses without needing to boot your main OS. Its GUI is LXDE. The minimum specifications of Knoppix are: intel/AMD-compatible processor, 32MB (for text mode only) or 2GB (recommended), a bootable optical drive (such as USB, DVD etc.), and a SVGA-compatible graphics card. 
 
-1. Manjaro: Manjaro is used for general-purpose usage, and also is great for 
+1. Manjaro: Manjaro is used for general-purpose usage, and also is great for new program development/new technology. Manjaro can come with the Xfce GUI but also can come in KDE. Its mimimum specifications are: 1GB memory, 30GB disk space, 1GHz processor and HD graphics card and monitor. 
 
 1. Kali: Kali is known for “advanced penetration testing and security audacity.” This means that it is specialised in simulating cyber attacks and checking a computer systems security. For its GUI system, Kali uses GNOME. The minimum specifications are: 3.6GB hard disk space, 257MB RAM, and a CD-DVD drive or a USB stick. 
 
