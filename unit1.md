@@ -38,10 +38,8 @@ T.E.L.O.S study:
 
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Menu%20Flow%20Diagram.png)
 *Fig. 2 Menu Flow Diagram* 
-![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Encryption%20Flow%20Diagram%20(1).png)
-*Fig. 3 Encryption Flow Diagram* 
-
-
+![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/Encryption%20Flow%20Diagram.png)
+*Fig. 3 Encryption Flow Diagram*
 
 ```.py 
 
@@ -127,8 +125,6 @@ for line in all_lines_of_db:
 #this doubles the quantity
 for line in all_lines_of_db[1:6]:
     elements_in_list = (line.strip().split(','))
-    
-
 
 ```
 
