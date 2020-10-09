@@ -15,8 +15,7 @@ T.E.L.O.S study:
 
 ## Criteria for Success
 1. Provides clear feedback to the user 
-1. **There are no bugs in the application** 
-1. The application should allow to calculate the total and billing 
+1. The application should be able to calculate the tax 
 1. Secure application: It allows user login/authentification 
 
 ## Criteria B: Design
@@ -24,6 +23,13 @@ T.E.L.O.S study:
 ![Diagram](https://github.com/isabelandreatta1/Unit-1/blob/master/SakamotoDiagram.png) 
 
 *Fig. 1 System Diagram* 
+
+## Testing plan 
+| Test No | Procedure                                                                                     | Inputs                                                     | Expected Output                                                                                                                                                                                                                                                                         | Success Criteria                                    |
+|---------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| 1       | 1. Input your name  2. Input "5" 3. Input the total price in BTC                              | 1. Any string  2. Must be an int 1-5 3. Must be an integer | 1. Printed message with the name 2. printed message telling you what repeating number 5 3. Printed box made of Xs and total price in the middle                                                                                                                                         | The application should be able to calculate the tax |
+| 2       | 1. Input your name in all capitals 2. Input "7" 3. Input "8" 4. Input the total price in BTC  | 1. Any string 2.  3.  4. Must be an integer                | 1. Printed message with the name in capitals 2. Printed message alerting that you have 2 more tries to pick  a number within a range  3. Printed message alerting that you have 1 more try to pick  a number within the range  4. Printed box made of Xs and total price in the middle  | Provides Clear Feedback to the User                 |
+| 3       | 1. Input your name  2. Input option '-2' 3. Input a negative whole number 4. Input an int     | 1. Any string  2.  3.  4. Must be an int                   | 1. Printed message with your name 2. Printed message alerting it doesn't accept negatives and let's you retry 3. Printed box made of Xs of total price                                                                                                                                  | Provides User validation of input                   |
 
 ## Record of Tasks 
 
