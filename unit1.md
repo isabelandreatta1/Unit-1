@@ -16,6 +16,7 @@ T.E.L.O.S study:
 ## Criteria for Success
 1. Provides clear feedback to the user 
 1. The application should be able to calculate the tax 
+1. Provides User validation of input  
 1. Secure application: It allows user login/authentification 
 
 ## Criteria B: Design
